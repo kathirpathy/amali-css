@@ -1,0 +1,107 @@
+body{
+           
+    margin: 0px;
+    background-color: #7695a7;
+    background-image:url(final-lg.jpg)   
+}
+
+
+/* ----services------- */
+#services{
+    padding: 25px 0;
+}
+.services-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-gap:30px;
+    margin-top: 50px;
+}               
+
+.services-list div{
+    background:#ffae00;
+    padding: 35px;
+    font-size: 12px;
+    font-weight: 300;
+    border-radius: 10px;
+    transition: background 0.5s ; transform: 0.5s;
+    position: relative;
+    top: 30px;
+}
+
+.services-list div i{
+    font-size: 60px;
+    margin-bottom: 23px;
+    }
+
+
+.services-list div h2{
+    font-size: 35px;
+    font-weight: 500;
+    margin-bottom: 18px;
+}
+
+
+.services-list div a {
+    text-decoration: none;
+    color:#ffffff ;
+    font-size: 11px;
+    margin-top: 25px;
+    display: inline-block;
+    padding: 20px;
+    
+}
+
+    .services-list div:hover{
+    background:#ffffff;
+    transform: translateY(-10px);
+
+}
+
+    .box{
+    position: relative;
+    bottom: 120px;
+    float: left;
+    margin-left: 23px;
+    width: 300px;
+}
+
+
+.navbar{
+    
+    width: 94%;
+    margin: auto;
+    padding: 34px,0 ;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-top: 14px;
+    font-family: sans-serif;
+}
+
+
+.navbar ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+button{
+    width: 80px;
+    height: 30px;
+    background-color:#ffffff;
+    margin: 5px;
+    width: 100px;
+    height: 30px;
+    float: right;
+}
+
+a {
+    text-decoration: none;
+    
+}
+

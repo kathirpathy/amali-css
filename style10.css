@@ -1,0 +1,135 @@
+
+
+*{
+    margin: 0px;
+}
+
+/* portfolio */
+
+#portfolio{
+    padding: 60px 0;
+}
+
+.work-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 55px;
+    margin-top: 60px;
+}
+
+.work{
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.work img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    display: block;
+    transition: tranceform 0.5s;
+}
+
+.layer{
+    width: 100%;
+    height: 0;
+    background: linear-gradient(rgba(255, 236, 236, 0.612), #436979);
+    border-radius: 15px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    display: flex;
+    align-items:left;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 47px;
+    text-align: left;
+    font-size: 15px;
+    /* transform: height 0.5s; */
+}
+
+p{
+    text-align: left;
+    /* margin-left: 25px; */
+}
+
+
+.layer a{
+    margin-top: 20px;
+    color: #fbff00;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 60px;
+    background: #40d2ff;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.work:hover img{
+    transform: scale()
+}
+
+.work:hover .layer{
+    height: 100%;
+}
+
+
+.navbar2{
+    width: 95%;
+    margin: auto;
+    padding: 35px,0 ;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-top: 18;
+    font-family: sans-serif;
+}
+
+
+  .navbar2 ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.navbar2 ul li a{
+text-decoration: none;
+color: #ffffff;
+text-transform: uppercase;
+}
+
+/* a:hover{
+    background-color: rgb(255, 128, 0);
+    padding: 20px;
+    border-radius: 35% 10%;
+   
+} */
+
+.banner1{
+
+    width: 100%;
+    height: 100vh;
+    background-image:url(final-lg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+button {
+    width: 80px;
+    height: 30px;
+    background-color:#ffffff;
+    margin: 5px;
+    width: 100px;
+    height: 30px;
+    float: right;
+
+}
+
+a {
+    text-decoration: none;
+    
+  } 
